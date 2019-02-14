@@ -1,19 +1,17 @@
-name:               experiment-floyd-warshall
+name:               floyd-warshall
 version:            1.0
 build-type:         Simple
 cabal-version:      >= 1.20
-license:            MIT
+license:            BSD3
 copyright:          Copyright © 2015 Miëtek Bak
 author:             Miëtek Bak <hello@mietek.io>
 maintainer:         Miëtek Bak <hello@mietek.io>
 stability:          experimental
-homepage:           https://github.com/mietek/experiment-floyd-warshall
-license-file:       LICENSE.md
+homepage:           https://github.com/mietek/floyd-warshall
+license-file:       LICENSE
 extra-source-files: README.md
-synopsis:           TODO
-description:        TODO
 
-executable experiment-floyd-warshall
+executable floyd-warshall
   hs-source-dirs:     src
   main-is:            Main.hs
   default-language:   Haskell2010
